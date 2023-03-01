@@ -1,0 +1,24 @@
+Testes é uma área de conhecimento amplo, responsável por:
+a) Encontrar defeitos antes dos clientes;
+b) Tornar os riscos da qualidade visíveis;
+c) Ajudar o time a adotar novas práticas relacionadas ao controlede qualidade;
+Dar dicas para o time para adotar qualidade. Deve se dar dicas para o time desdo começo do software.
+
+Mas o que é Testar?
+O teste é a investigação do software a fim de fornecer informações sobre sua qualidade em relação ao contextoem que ele deve operar.
+Testar é exercitar ou simular a operação de um programa ou sistema;
+Testar é medir a qualidade e funcionalidade de um sistema;
+O teste de programas pode ser usado para mostrar a presença de defeitos, mas nunca para mostrar sua ausência(Dijkstra).
+
+Se você trabalhar com testes terá que.
+Comunicar-se com diferentes profissionais;
+Aprender o negócio da empresa, conhecer os requisitos, pode ter erros no requisistos do sistema.
+Entender as funcionalidades e os riscos;
+Definir estratégias de teste;
+Planejar, identificar e escrever testes;
+Executar testes manuais e automatizados;
+Atualizer-se sempre.
+
+Hard Skills
+Ferramenta de gerenciamento de caso de testes(Ex: TestLink, Zephyr).
+

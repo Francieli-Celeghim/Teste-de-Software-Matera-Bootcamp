@@ -1,0 +1,16 @@
+Objetivo Principal 
+Encontrar erros no software o mais cedo possível
+Software:
+a) Código fonte;
+b) Base de dados;
+c) Requisitos;
+d) Projeto;
+e) Documentação.
+
+Objetivo Secundário:
+a) Obter boas indicações de confiabilidade e de qualidade do software como um todo;
+b) O teste, quando realizado com sucesso, demonstra que as funções do software estão aparentemente de acordocom as especificações.
+
+Como atingir os objetivos do Teste de Software?
+Através da definição e utilização de uma boa metodologia de teste de software.
+
