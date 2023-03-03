@@ -1,0 +1,109 @@
+Conjunto de procedimentos e regras  para a realização de alguma atividade.
+Metodologia de Testes de Software.
+a) Tipos de Teste;
+b) Níveis de Teste;
+c) Técnicas de Teste;
+d) Atividades de Teste;
+e) Ferramentas de Teste.
+
+Classificação de acordo com as diferentes características (propriedades) do software que se deseja testar.
+Objetivo: testar uma grande diversidade de características do software.
+
+Técnica de minimização: pegar o conjunto mínimo de cada funcionalidade é o smoke teste e automatiza
+técnica segura é usada onde foi modificado, utilizado análise de negócios que foi modificada.
+
+Metodologia de Teste - tipos de teste
+a) Teste de funcionalidade: requisitos funcionais;
+
+Requisitos não funcionais: 
+a) Teste de desempenho;
+b) Teste de carga (Stress);
+c) Teste de confiabilidade;
+d) Teste de usabilidade;
+e) Teste de segurança;
+f) Teste de portabilidade;
+g) Teste de instalação;
+h) Teste de recuperação.
+
+Tipo de teste funcional
+Testes de Requisitos funcionais
+a) Verificar o comportamento do softwareem relação à sua especificação (requisitos funcionais);
+b) São direcionados pelos documentos de especificação funcional.
+c) Foco em negócio;
+d) Tipo de teste mais prioritário entre os demais: aderência do softwareem relação às regras de negócio.
+O software desempenha uma função/ação de forma correta?
+
+Tipo de teste Desempenho ou Performance
+1) A eficiência de performance é uma parte essencial de fornecer uma boa experiência aos usuários quando eles
+usam seus aplicativos em uma variedade de plataformas fixas e móveis;
+2) O teste de performance desempenha um papel crítico no estabelecimento de níveis de qualidade aceitáveis
+parao usuário final e, muitas vezes;
+3) Comportamento do tempo: geralmente, a avaliação do comportamento do tempo é o objetivo mais comum dos testes de performance.
+Esse aspecto examina a capacidade de um componente ou sistema responder às entradas do usuário ou do
+sistema dentro de um tempo específico e sob condições específicas. As medições do comportamento do tempo
+podem variar do período de ponta a ponta usado pelo sistema para responder à entrada de usuário.
+4) Utilização de recursos: se a disponibilidade de recursos do sistema for identificada como um risco, a
+utilização desses recursos (a alocação de memória RAM limitada) poderá ser investigada por meio da realização de testes específicos de performance.
+5) Capacidade: se as questões de comportamento do sistema nos limite da capacidade exigida do sistema (números de usuários ou volumes de dados)
+forem identificadas como um risco, os testes de performance podem ser realizados para avaliar se a arquitetura do sistema é adequada.
+6) O teste de performance geralmente assume a forma de experimentação, que permite a
+medição e a análise de parâmetros específicos do sistema. Esse pode ser conduzido
+iterativamente no apoio à análise e implementação do sistema para permitir que sejam
+tomadas decisões de arquitetura.
+
+Tipo de teste performance - princípios
+● Os testes devem estar alinhados às expectativas definidas dos diferentes grupos de
+stakeholders, em particular dos usuários, arquitetos de sistemas e da equipe de
+operações.
+● Os testes devem ser reproduzidos. Os resultados estatisticamente idênticos (dentro
+de uma tolerância específica) devem ser obtidos repetindo-se os testes em um
+sistema inalterado.
+● Os testes devem produzir resultados que sejam compreensíveis e possam ser
+prontamente comparados com as expectativas dos stakeholders.
+● Os testes podem ser realizados, onde os recursos permitem, em sistemas
+completos ou parciais ou em ambientes de teste que são similares ao sistema de
+produção.
+● Teste de Performance: é um termo abrangente que inclui qualquer tipo de teste focado
+na performance (responsivo) do sistema ou componente sob diferentes volumes de carga.
+● Teste de Carga: se concentra na capacidade de um sistema em lidar com níveis
+crescentes de cargas reais, de forma antecipada, resultantes de solicitações de transação
+geradas por quantidades de usuários ou processos controlados ou concorrentes.
+● Teste de Estresse: se concentra na capacidade de um sistema ou componente em lidar
+com picos de cargas que estão no limite ou além dos limites das cargas de trabalho
+previstas ou especificadas. O teste de estresse também é usado para avaliar a capacidade
+de um sistema em lidar com a disponibilidade reduzida de recursos, como capacidade de
+processamento, largura de banda e memória disponíveis
+● Teste de Escalabilidade: se concentra na capacidade de um sistema em atender a
+requisitos futuros de eficiência, que podem estar além dos requisitos exigidos atualmente.
+● O objetivo desses testes é determinar a capacidade do sistema de expandir (com mais
+usuários, grandes quantidades de dados armazenados) sem violar os requisitos de
+performance especificados no momento ou em sua falha;
+● Uma vez que os limites de escalabilidade são conhecidos, os valores limites podem ser
+definidos e monitorados na produção para fornecer um alerta de problemas que podem
+estar prestes a acontecer.
+● Além disso, o ambiente de produção pode ser ajustado com configurações adequadas de
+hardware.
+● Teste de Pico: foca na capacidade de um sistema em responder corretamente a rajadas
+súbitas de cargas de pico e retornar depois a um estado estável.
+● Teste de Resistência: concentra-se na estabilidade do sistema ao longo de um período
+específico para o contexto operacional do sistema. Esse tipo de teste verifica se não há
+problemas de capacidade de recursos (vazamentos de memória, conexões de banco de
+dados, conjuntos de encadeamentos) que podem, eventualmente, degradar a
+performance e/ou causar falhas nos pontos de interrupção.
+● Teste de Concorrência: foca no impacto das situações em que ações específicas ocorrem
+simultaneamente (quando muitos usuários fazem login ao mesmo tempo). Os problemas
+de concorrência são difíceis de encontrar e reproduzir.
+
+Tipo de Teste Confiabilidade
+● Se você não testou, pressuponha que tem falha;
+● Visa monitorar o software por um determinado período de tempo para avaliar o
+nível de confiabilidade;
+● A responsabilidade nesse teste é quantificar a confiança nos sistemas que estão
+sofrendo manutenção;
+● A confiança pode ser medida tanto pela confiabilidade passada (dados históricos
+do sistema) quanto pela confiabilidade futura (previsão baseada no passado);
+● Verificar a capacidade do software em manter sua integridade;
+● É possível recuperar dados em caso de falhas?
+● Se ocorrer alguma falha, como o sistema reage?
+
+Tipo de Teste Usabilidade
