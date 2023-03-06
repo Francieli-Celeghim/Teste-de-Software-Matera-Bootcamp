@@ -107,3 +107,88 @@ do sistema) quanto pela confiabilidade futura (previsão baseada no passado);
 ● Se ocorrer alguma falha, como o sistema reage?
 
 Tipo de Teste Usabilidade
+● O teste de usabilidade avalia o grau em que o sistema pode ser usado por usuários
+específicos com eficácia, eficiência e satisfação em um contexto de uso específico.
+● Um teste de usabilidade consiste em uma série de sessões de teste voltados para a
+usabilidade. Em cada sessão, um participante do teste de usabilidade executa
+tarefas representativas no produto de software ou um protótipo do produto de
+software.
+● Uma sessão de teste é intermediada por um moderador.
+● O teste de usabilidade deve ser feito sob condições tão próximas quanto possíveis
+daquelas sob as quais os produtos de software serão utilizados.
+● Verificar a facilidade com a qual os usuários podem aprender e usar o
+software.
+● Exemplos de como este teste pode ser executado:
+○ Entrar em cada tela e avaliar a facilidade de navegação entre elas
+○ Realizar n operações e depois desfazê-las
+○ Realizar procedimentos críticos e avaliar mensagem de alerta
+○ Avaliar número de passos para realizar as principais operações
+○ Avaliar a existência de ajuda (help on line) em todas as telas
+
+Tipo de Teste Segurança
+● Os testes de segurança avaliam a vulnerabilidade de um sistema a ameaças ao tentar
+comprometer a política de segurança do sistema.
+● Uma lista de ameaças:
+○ Cópia não autorizada de aplicativos ou dados;
+○ Controle de acesso não autorizado;
+○ Quebrar os códigos de criptografia usados para proteger dados confidenciais;
+○ Código inserido em uma página da Web que pode ser acessado por outros usuários
+○ Bombas lógicas, que podem ser inseridas maliciosamente no código e que se
+ativam somente sob certas condições.
+● Os testes de segurança não podem garantir que um sistema ou organização fique a salvo do
+ataque. No entanto, os testes de segurança podem ajudar a identificar riscos e avaliar a eficácia
+das defesas de segurança existentes.
+● Existem outras atividades para complementar testes de segurança, como auditorias e revisões de
+práticas de segurança.
+● Os objetivos do teste de segurança também devem basear-se em atributos de tecnologia e
+vulnerabilidades conhecidas.
+○ Verificar se a autenticação de senha aplica a regra correta para a força da senha.
+○ Verificar se todos os campos de entrada de dados são validados para evitar ataques de SQL injection.
+○ Verificar se os arquivos de dados do cliente são criptografados.
+
+Tipo de Teste Portabilidade
+● Verifica se o software pode ser utilizado com plataformas de
+hardware ou software previstos nas fases de levantamento de
+Requisitos
+● Podem ser executados da seguinte forma:
+○ Variar os sistemas operacionais (incluindo versões);
+○ Variar os browsers;
+○ Variar os hardwares que irão interagir com a solução
+
+Tipo de Teste Instalação
+● Verifica se os procedimentos de instalação estão corretos (manual de
+instalação)
+● Avaliar se estes procedimentos possibilitam as várias alternativas previstas nos
+requisitos identificados
+● Podem ser executados da seguinte forma:
+● Realizar a primeira instalação do software
+● Realizar a instalação de atualização de um software
+● Realizar todas as alternativas de instalação
+
+Tipo de Teste Recuperação
+● Verifica o comportamento do software após a ocorrência de um erro ou de
+determinadas condições anormais – por exemplo, verificar a capacidade do
+software reiniciar depois de um “desastre”
+● Podem ser executados do seguinte modo:
+○ Interromper o acesso à rede;
+○ Por alguns instantes;
+○ Por um longo período;
+○ Interromper o processamento;
+○ Desligar o micro;
+○ Desligar o servidor.
+
+Teste de Regressão
+● Manter a qualidade do software após diversas versões é um desafio.
+● O teste de regressão é usado para garantir a qualidade do software após diversas
+versões terem sido geradas.
+● O custo do teste de regressão é alto por requerer muitas execuções de casos de
+teste.
+● O alto custo leva a aplicação de técnicas de seleção de testes de regressão (STR)
+que direcionam a seleção de apenas um conjunto de casos de teste.
+● Teste de regressão de acordo com a IEEE é o reteste seletivo de um
+sistema ou componente para verificar que as modificações não
+causaram efeitos não intencionais e que o sistema ou componente ainda
+está compatível com seus requisitos especificados.
+● O teste de regressão é um processo de manutenção caro e que deveria
+ser frequentemente executado
+

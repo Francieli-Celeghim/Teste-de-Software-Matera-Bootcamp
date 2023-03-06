@@ -1,0 +1,15 @@
+Metodologia de Testes - Níveis de Teste
+Classificação de acordo com os diferentes níveis de granularidade
+em que o teste deve ser realizado.
+
+Objetivo: diminuir a complexidade da atividade de teste de
+software.
+
+Metodologia de Teste: Níveis de Teste
+Níveis de teste
+a) teste de unidade;
+b) teste de integração;
+c) teste de sistema;
+d) teste de aceitação.
+
+1) Teste de unidade

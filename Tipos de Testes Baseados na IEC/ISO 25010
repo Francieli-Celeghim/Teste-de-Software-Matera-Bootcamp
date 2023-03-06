@@ -1,0 +1,47 @@
+Adequação Funcional
+a) integridade;
+b) correção;
+c) adequação.
+
+Confiabilidade
+a) maturidade;
+b) disponibilidade;
+c) tolerância ao erro;
+d) recuperabilidade.
+
+Eficiência de desempenho
+a) comportamento;
+b) temporal;
+c) uso de recursos;
+d) capacidade.
+
+Compatibilidade
+a) coexistência;
+b) interoperabilidade.
+
+Usabilidade
+a) reconhecimento da adequação;
+b) aprendizagem;
+c) operabilidade;
+d) proteção contra erros;
+e) estética da interface;
+f) acessibilidade.
+
+Segurança
+a) confidencialidade;
+b) integridade;
+c) não repúdio;
+d) prestação de contas;
+e) autenticidade.
+
+Manutenção
+a) modularidade;
+b) reutilização;
+c) analisabilidade;
+d) modificabilidade;
+e) testabilidade.
+
+Portabilidade
+a) adaptabilidade;
+b) instabilidade;
+c) substituibilidade.

@@ -1,0 +1,54 @@
+Estratégias de Seleção de Casos de Teste
+● As técnicas de seleção de casos de teste de regressão (RTS) tentam reduzir custos
+com um impacto menor possível na eficiência selecionando um subconjunto da
+suíte de testes.
+● Uma vez que a seleção de testes ótima (selecionar exatamente os casos de teste
+reveladores de falha) é impossível, os resultados de custo-benefício das técnicas de
+seleção são um interesse central de pesquisa e da prática em teste de regressão
+● Essas estratégias visam tratar a limitação de restrições de tempo e recursos do
+mundo real.
+● Retestar tudo
+● Técnica de minimização
+● Técnica segura
+● Retestar caso de uso de maior risco
+● Retestar de acordo com perfil operacional
+● Retestar baseado em dados históricos
+
+Técnica Segura
+● Essas técnicas selecionam, sob certas condições, cada caso de
+teste em T que cubra entidades de programa modificadas em P’.
+● Deve ser capaz de selecionar os casos de teste que são
+reveladores de falhas selecionando os casos de teste que são
+reveladores de modificações.
+● Identificar através de diferentes níveis, os casos de testes que
+englobam as modificações. 
+
+Retestar Caso de Uso de Maior Risco
+● Essa técnica se baseia em risco para selecionar um conjunto de
+casos de teste de regressão.
+● Dentre os requisitos funcionais existentes, serão selecionados
+apenas aqueles que são classificados como críticos.
+● O caso de uso é avaliado e identificam-se as consequências dos
+defeitos no pior caso.
+● Baixo custo de análise do conjunto de casos de teste.
+● A seleção se baseia em requisitos e não em dependências de código.
+
+Retestar de acordo com o Perfil Operacional
+● Essa técnica consiste na seleção de casos de teste com base no perfil
+operacional, especialmente quando os recursos são restritos.
+● A técnica se propõe a resolver essa questão através da seleção dos testes
+de acordo com a frequência com que os casos de uso são utilizados.
+● Deve garantir que se o teste for terminado e o software for entregue por
+causa de restrições de cronograma, as operações mais usadas terão
+recebido o máximo de testes e o nível de confiabilidade será maior.
+
+Retestar baseado em Valor Histórico
+● Baseia-se no uso de dados históricos de execução de teste;
+● Usando-se as informações históricas dos:
+○ Custos dos casos de teste
+○ Quantidade de defeitos encontrados
+○ Severidades dos defeitos detectados em uma suíte de testes
+○ Pode ser considerada nessa análise defeitos que foram abertos pelos
+clientes.
+● O valor histórico dos casos de teste é calculado baseado nas informações
+históricas e é usado para a base da seleção de casos de teste.
