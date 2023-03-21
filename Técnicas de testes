@@ -1,0 +1,67 @@
+Técnicas de Teste
+● Classificação de acordo com a origem das informações
+utilizadas na seleção dos dados de teste que compõem os
+casos de teste.
+● Objetivo: Selecionar subconjuntos de dados de teste que
+visem a encontrar o maior número de erros possível.
+
+Metodologia de Teste - Técnicas de Teste
+Teste de Funcionalidade;
+Teste de Desempenho;
+Teste de Carga (Stress);
+Teste de Confiabilidade;
+Teste de Usabilidade;
+Teste de Segurança;
+Teste de Portabilidade;
+Teste de Instalação;
+Teste de Recuperação;
+
+Técnicas Caixa Preta,
+Técnicas Caixa Branca e Técnicas baseadas na experiência
+
+Técnicas de Teste
+1) Teste de Caixa Preta
+- Teste Funcional
+- Teste baseado em Especificações
+focaliza os requisitos funcionais do software, para selecionar os requisitos de teste
+
+2) Teste de Caixa Branca
+- Teste Estrutural
+- Teste baseado em Código
+focaliza a estrutura interna do software, para selecionar os requisitos de teste
+Requisitos de teste - elementos do software que devem ser exercitados
+
+3) Técnicas de Teste Caixa Preta 
+● Métodos de refinamento dos casos de testes:
+○ Particionamento de Equivalência;
+○ Análise de Valores Limites;
+○ Baseado em Máquinas de Estados Finitos;
+○ Teste Aleatório – por probabilidade de erro;
+○ Personas, tarefas e papéis;
+○ Fluxo de trabalho (Cenários Operacionais);
+○ Testes baseados em riscos;
+○ Mapas Mentais;
+○ Técnicas baseadas na experiência.
+
+4) Caixa Preta - Particionamento de Equivalência
+● Informações utilizadas: domínios de entradas do software;
+● Classe de Equivalência: conjunto de elementos dos dados de entradas do
+software que são razoavelmente tratados pelo programa da mesma forma.
+Isto é, os elementos de uma classe de equivalência possuem a mesma
+probabilidade de detecção de erros.
+Descrição da Técnica:
+1) Dividir o domínio de entrada de um programa em classes de equivalência
+(Válidas e Inválidas); e
+2) Escolher um dado de entrada dentro de cada classe de equivalência para
+projetar os casos de teste.
+Exemplo:
+Num sistema fictício de controle de vendas, existe uma função que calcula um
+desconto de acordo com a idade do cliente , através da seguinte tabela:
+0 - 14 anos : não há desconto;
+15 - 29 anos : desconto de 5%;
+30 - 59 anos : desconto de 10%;
+60 - + : desconto de 15%;
+Classes Válidas: (0, 14); (15, 29); (30, 59); (60, +).
+Classes Inválidas: (-1); Números Fracionários; Caracteres Especiais; Letras.
+
+Caixa Preta - Análise de Valores Limites

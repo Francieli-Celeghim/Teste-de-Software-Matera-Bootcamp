@@ -21,4 +21,16 @@ Atualizer-se sempre.
 
 Hard Skills
 Ferramenta de gerenciamento de caso de testes(Ex: TestLink, Zephyr).
+Exemplo: Ferramenta de gerenciamento de caso de teste, banco de dados, automação,
+jenkins, docker, git, etc
+Ferramentas de automação - Selenium, Robot Framework, Postman, etc
 
+ Testes de unidade - e bom termos uma visão desse teste apesar de ser do
+desenvolvimento
+● Testes de API
+● Teste Web
+● Teste Mobile
+● Teste Desktop
+● Testes não funcionais (Acessibilidade, performance, segurança,
+compatibilidade)
+● Gerenciamento de testes e defeito (JIRA, Zephyr)

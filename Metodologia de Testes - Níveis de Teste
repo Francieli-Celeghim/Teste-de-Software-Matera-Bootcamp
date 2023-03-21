@@ -12,4 +12,59 @@ b) teste de integração;
 c) teste de sistema;
 d) teste de aceitação.
 
-1) Teste de unidade
+Níveis de Teste
+1) Teste de Unidade
+● Objetivo: explorar as partes do software que são testáveis
+separadamente.
+● A granularidade de uma unidade depende do contexto: pode
+ser uma sub-rotina ou um procedimento, um módulo ou um
+componente, uma classe ou um método.
+● O testador deve garantir que cada unidade funcione adequadamente,
+pelo menos de forma individual.
+● A execução dos testes de unidade tem início quando o código está
+maduro, por exemplo, depois de uma compilação limpa.
+● Um teste unitário basicamente é o teste da menor parte testável de um
+programa.
+● O Planejamento e o Projeto dos testes de unidade tem início antes da
+implementação da funcionalidade
+
+2) Teste de Integração (Componente)
+● Esse teste tem o objetivo de validar as integrações das unidades, sua
+validação de integração é mais restrita.
+● Existem dois tipos de integrações:
+○ Incremental: as unidades são integradas gradualmente
+○ Integração Top-Down (descendente);
+○ Integração Bottom-Up (ascendente);
+○ Não Incremental: Integração Big-Bang
+○ Todas as unidades são integradas de uma só vez!
+○ Esforço de preparação menor
+○ Esforço para diagnóstico e correção de falhas é maior
+
+3) Teste de Sistema
+● Objetivo: O teste de sistema deve focar no comportamento
+geral, funcional e não funcional, de ponta a ponta do sistema
+como um todo.
+● Verificar se os comportamentos funcionais e não funcionais
+do sistema estão completos e funcionam como especificados
+● Exemplos: Testes Exploratórios, End to End, Segurança,
+Performance, Usabilidade, Carga
+
+4) Teste de Integração Funcional 
+● Conhecido como um teste de integração mais amplo e
+também como 'End to End' ou E2E.
+● Objetivo: validar integrações em uma amplitude maior
+envolvendo vários sistemas e configurações diversificadas.
+● Estes testes requerem versões ao vivo de todos os serviços,
+exigindo ambiente de teste substancial e acesso à rede para
+exercitar caminhos de código em todos os serviços, não
+apenas no código responsável pelas interações
+
+5) Teste de Aceitação
+● É tipicamente focado em validar a adequação do uso do
+sistema pelos usuários pretendidos em um ambiente
+operacional real ou simulado.
+● O objetivo principal é desenvolver a confiança de que os
+usuários podem usar o sistema para atender às suas
+necessidades, atender aos requisitos funcionais e não
+funcionais e executar processos de negócios com o mínimo
+de dificuldade, custo e risco. 
